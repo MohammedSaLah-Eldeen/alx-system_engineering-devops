@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# useless script
+
+i=0
+
+while [ $i -le 9 ]
+do
+	echo "Best School"
+	i=$(( i + 1 ))
+
+	if [ $i -eq 9 ]
+	then
+		echo "Hi"
+	fi
+done
