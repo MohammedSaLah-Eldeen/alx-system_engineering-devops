@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# a script to return the process id
-
-pgrep 0-what-is-my-pid

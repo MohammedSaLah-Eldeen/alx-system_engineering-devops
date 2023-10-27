@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# returns a list of all process ids
+
+ps -axjf
