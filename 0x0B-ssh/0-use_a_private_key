@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Task 0
+
+ssh -i ~/.ssh/school ubuntu@18.234.253.36

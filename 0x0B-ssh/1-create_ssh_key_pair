@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Task 1
+
+ssh-keygen -b 4096 -f school -N betty

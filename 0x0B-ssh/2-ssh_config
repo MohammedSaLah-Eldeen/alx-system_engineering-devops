@@ -1,0 +1,5 @@
+# Task 2
+
+Host *
+     BatchMode yes
+     IdentityFile ~/.ssh/school
