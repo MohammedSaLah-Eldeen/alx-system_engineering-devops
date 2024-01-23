@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# running nginx as a user that's not the root.
+
+adduser nginx --no-create-home --disabled-password
+apt-get update
+apt-get install nginx -y
+su nginx
+service nginx start
