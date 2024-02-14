@@ -4,7 +4,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """solution for task 1"""
+    """solution for task 0"""
     headers = {'User-Agent': 'MyCoolScript/1.0 (by /u/supermaker)'}
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
 
@@ -16,4 +16,4 @@ def number_of_subscribers(subreddit):
             return (0)
     except requests.exceptions.RequestException:
         return (0)
-    
+
