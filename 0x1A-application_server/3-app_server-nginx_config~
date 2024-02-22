@@ -1,0 +1,13 @@
+27.0.0.1:5001/number_odd_or_even/$1;
+    }
+
+    location /redirect_me {
+            return 301 https://dr-stone.fandom.com/wiki/Senku_Ishigami/;
+	        }
+
+    error_page 404 /404.html;
+        location /404 {
+	      root /var/www/html;
+	            internal;
+		        }
+			}~
